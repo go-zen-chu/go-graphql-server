@@ -1,7 +1,32 @@
-# golang-template
+# go-config-server
 
-[![Documentation](https://pkg.go.dev/badge/github.com/go-zen-chu/golang-template)](http:///pkg.go.dev/github.com/go-zen-chu/golang-template)
-[![Actions Status](https://github.com/go-zen-chu/golang-template/workflows/ci/badge.svg)](https://github.com/go-zen-chu/golang-template/actions)
-[![GitHub issues](https://img.shields.io/github/issues/go-zen-chu/golang-template.svg)](https://github.com/go-zen-chu/golang-template/issues)
+[![Documentation](https://pkg.go.dev/badge/github.com/go-zen-chu/go-graphql-server)](http:///pkg.go.dev/github.com/go-zen-chu/go-graphql-server)
+[![Actions Status](https://github.com/go-zen-chu/go-graphql-server/workflows/ci/badge.svg)](https://github.com/go-zen-chu/go-graphql-server/actions)
+[![GitHub issues](https://img.shields.io/github/issues/go-zen-chu/go-graphql-server.svg)](https://github.com/go-zen-chu/go-graphql-server/issues)
 
-Github template repository for golang.
+golang config server example using graphQL.
+
+## Develop GraphQL server
+
+1. update files in ./graph
+1. run command below to generate
+
+    ```bash
+    make gen-gql-resolver
+    ```
+
+1. check it works as expected (using `open` command for Mac)
+
+    ```bash
+    make run-gql-playground
+    ```
+
+    ![](./docs/gql-playground.png)
+
+## Generate API Docs
+
+```bash
+make run-gql-doc
+```
+
+![](./docs/spectaql.png)
