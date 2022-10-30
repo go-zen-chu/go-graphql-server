@@ -1,6 +1,5 @@
 # go-config-server
 
-[![Documentation](https://pkg.go.dev/badge/github.com/go-zen-chu/go-graphql-server)](http:///pkg.go.dev/github.com/go-zen-chu/go-graphql-server)
 [![Actions Status](https://github.com/go-zen-chu/go-graphql-server/workflows/ci/badge.svg)](https://github.com/go-zen-chu/go-graphql-server/actions)
 [![GitHub issues](https://img.shields.io/github/issues/go-zen-chu/go-graphql-server.svg)](https://github.com/go-zen-chu/go-graphql-server/issues)
 
